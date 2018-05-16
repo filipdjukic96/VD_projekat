@@ -35,25 +35,26 @@ hr.star-dark:after {
 }
 
 hr.star-light {
-  border-color: #fff;
+  border-color: #B47F41;
 }
 
 hr.star-light:after {
-  color: #fff;
-  background-color: #18BC9C;
+  color: #B47F41;
+  background-color: #575757;
 }
 
 hr.star-dark {
-  border-color: #2C3E50;
+  border-color: #575757;
 }
 
 hr.star-dark:after {
-  color: #2C3E50;
-  background-color: white;
+  color: #575757;
+  background-color: #B47F41;
 }
 
 section {
   padding: 6rem 0;
+  
 }
 
 section h2 {
@@ -99,10 +100,11 @@ section h2 {
   padding-bottom: 1rem;
   font-weight: 700;
   font-family: 'Montserrat';
+  background-color: #424141
 }
 
 #mainNav .navbar-brand {
-  color: #fff;
+  color:#B47F41;
 }
 
 #mainNav .navbar-nav {
@@ -111,19 +113,19 @@ section h2 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link {
-  color: #fff;
+  color: #B47F41;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: #18BC9C;
+  color: #575757;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
-  color: #fff;
+  color: #B47F41;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-  color: #18BC9C;
+  color: #575757;
 }
 
 #mainNav .navbar-toggler {
@@ -149,12 +151,12 @@ section h2 {
     margin-top: 0;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
-    color: #fff;
-    background: #18BC9C;
+    color: #B47F41;
+    background: #575757;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
-    color: #fff;
-    background: #18BC9C;
+    color: #B47F41;
+    background: #575757;
   }
   #mainNav.navbar-shrink {
     padding-top: 0.5rem;
@@ -210,7 +212,7 @@ header.masthead h2 {
   -moz-transition: all ease 0.5s;
   transition: all ease 0.5s;
   opacity: 0;
-  background-color: rgba(24, 188, 156, 0.9);
+  background-color: #575757;
 }
 
 .portfolio .portfolio-item .portfolio-item-caption:hover {
@@ -321,10 +323,12 @@ form .row:first-child .floating-label-form-group {
 }
 
 .footer {
+  position: relative;
+  bottom: 0px;
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: #2C3E50;
-  color: #fff;
+  background-color: #424141;
+  color: #B47F41;
 }
 
 .copyright {
@@ -344,7 +348,10 @@ a:focus, a:hover, a:active {
 }
 
 .bg-primary {
-  background-color: #18BC9C !important;
+  background-color: #777777 !important;
+  position:relative;
+  top: 0px;
+  padding-top: 0px;
 }
 
 .bg-secondary {
@@ -377,4 +384,74 @@ a:focus, a:hover, a:active {
 .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
   background-color: #1a252f;
   border-color: #1a252f;
+}
+
+.dropdown-menu
+{
+  background-color: rgba(59, 59, 59, 0.651);
+  margin-top: -10px;
+  min-width: 7rem;
+}
+
+.dropdown-menu a
+{
+  color: #B47F41;
+  font-family: 'Montserrat';
+  text-decoration: none;
+}
+
+.dropdown-menu li
+{
+  text-align: center;
+}
+
+.dropdown-menu a:hover
+{
+  color: #999999;
+}
+
+.dropdown-item a
+{
+  color:  #B47F41; 
+  font-weight: bold;
+  
+}
+
+.dropdown-item:focus, .dropdown-item:hover
+{
+  background-color: #5a5c5e93;
+}
+
+.dropdown-menu.show
+{
+    display: block;
+}
+
+.dropdown:hover .dropdown-menu{
+  display:block;
+}
+
+.navbar-toggler
+{
+  color: #B47F41;
+}
+
+.navbar-brand
+{
+  color: #B47F41;
+}
+
+.firstSection
+{
+  margin: 0px;
+  padding-bottom: 40px;
+  width: 100%;
+  background-color: #777777;
+  color: #424141;
+}
+
+.bg-primary .breadcrumb
+{
+  color: #B47F41;
+  background-color: #999999;
 }
