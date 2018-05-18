@@ -402,7 +402,7 @@ a:focus, a:hover, a:active {
 
 .dropdown-menu
 {
-  background-color: rgba(59, 59, 59, 0.651) !important;
+  background-color: rgba(59, 59, 59, 0.808) !important;
   margin-top: -10px;
   min-width: 7rem;
 }
@@ -433,7 +433,7 @@ a:focus, a:hover, a:active {
 
 .dropdown-item:focus, .dropdown-item:hover
 {
-  background-color: #5a5c5e93; 
+  background-color: #5a5c5e9f; 
 }
 
 .dropdown-menu.show
@@ -487,7 +487,7 @@ a:focus, a:hover, a:active {
 
 span.carousel-control-prev-icon, .carousel-control-next-icon
 {
-  background-color: #1a252f;  
+  background-color: #1a252f00;  
   
 }
 
@@ -526,7 +526,7 @@ span.carousel-control-prev-icon, .carousel-control-next-icon
 .subtitle p
 {
   color: #0f0f0f;
-  font-family: 'gothic-century';
+  font-family: 'Montserrat';
   font-size: 2.0em;
   font-style: strong;
 
