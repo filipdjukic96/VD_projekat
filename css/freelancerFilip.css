@@ -1,0 +1,90 @@
+#headerImage{
+    width:100%;
+    height:auto;
+}
+
+#aboutFestival{
+   
+    text-align: justify;
+
+}
+
+.aboutBottomImage{
+    width:100%;
+    height:300px;
+    margin-top:10px;
+}
+
+.awardName{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+.contactList a{
+    color:#B47F41;
+}
+
+.contactList a:hover{
+    color:rgba(196, 79, 12, 0.411);
+    text-decoration: none;
+    
+}
+
+.contactList{
+    font-size:30px;
+}
+
+
+.subsubtitle{
+    padding-left:25px;
+}
+
+
+.actorBio img{
+   height:auto;
+    width:300px;
+}
+
+.actorBio{
+    margin-bottom:40px;
+}
+
+.actorBio p{
+    text-align:justify;
+}
+
+
+#firstPage a{
+    color:rgb(46, 26, 3);
+}
+
+
+.projectionLocation{
+    margin-bottom:40px;
+}
+
+.projectionLocation img{
+    height:350px;
+    width:60%;
+}
+
+.projectionLocation a{
+    color:#B47F41;
+}
+
+.projectionLocation a:hover{
+    color:rgba(196, 79, 12, 0.411);
+    text-decoration: none;
+    
+}
+
+.projectionInfo{
+    font-weight: bold;
+    margin-left:10px;
+}
+
+
+.actorInfoButton{
+    margin-top:20px;
+}

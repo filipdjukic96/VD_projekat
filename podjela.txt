@@ -20,8 +20,8 @@ Milica
 
 
 Filip
--O festivalu
--Nagrade
--Kontakt
--Mesta projekcija
--Glumci
+-O festivalu-->check, samo popraviti text justify
+-Nagrade-->check, samo promijeniti list style na custom
+-Kontakt-->check
+-Mesta projekcija-->check
+-Glumci-->check, ostalo da se napravi posebno stranica za svakog glumca
