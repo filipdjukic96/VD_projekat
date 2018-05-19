@@ -21,7 +21,7 @@ Milica
 
 Filip
 -O festivalu-->check
--Nagrade-->check, samo promijeniti list style na custom
+-Nagrade-->check, samo promijeniti list style na custom!!!!
 -Kontakt-->check
 -Mesta projekcija-->check
 -Glumci-->check, i odradjena posebno stranica za svakog
