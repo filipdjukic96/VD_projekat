@@ -22,11 +22,12 @@
 
 
 .contactList a{
-    color:#B47F41;
+    color: rgb(95, 53, 5);
+   
 }
 
 .contactList a:hover{
-    color:rgba(196, 79, 12, 0.411);
+    color: #212528;
     text-decoration: none;
     
 }
@@ -88,3 +89,13 @@
 .actorInfoButton{
     margin-top:20px;
 }
+
+.actorBioDetailed img{
+    height:500px;
+    width:400px;
+}
+.actorBioP{
+    font-weight: bold;
+    text-align: justify;
+}
+
