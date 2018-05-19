@@ -1,7 +1,7 @@
 Milica
 -Popuni formu za Marvel
--Ziri        !!! checked
--Sponzori    !!! checked
+-Ziri
+-Sponzori
 -Program-filmovi
 -Prodajna mesta
 -Vesti
