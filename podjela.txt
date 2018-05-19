@@ -24,4 +24,4 @@ Filip
 -Nagrade-->check, samo promijeniti list style na custom
 -Kontakt-->check
 -Mesta projekcija-->check
--Glumci-->check, ostalo da se napravi posebno stranica za svakog glumca
+-Glumci-->check, i odradjena posebno stranica za svakog
