@@ -20,7 +20,7 @@ Milica
 
 
 Filip
--O festivalu-->check, samo popraviti text justify
+-O festivalu-->check
 -Nagrade-->check, samo promijeniti list style na custom
 -Kontakt-->check
 -Mesta projekcija-->check
