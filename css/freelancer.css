@@ -638,3 +638,21 @@ body
   position:absolute;
   right:5%;
 }
+
+.media-item:hover .overlay
+{
+ opacity: 1;
+}
+
+.page-link
+{
+    color:  rgb(95, 53, 5) !important;
+    background-color:  #888686 !important;
+    border-color: #bbb4b4;
+}
+
+.page-link
+{
+    font-size: 20px;
+}
+
