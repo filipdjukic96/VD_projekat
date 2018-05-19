@@ -1,3 +1,44 @@
+.media .media-body a
+{
+    color: rgba(51, 50, 50, 0.986) !important;
+}
 
+.media .overlay
+{
+    background: rgba(0,0,0,0.5);
+    color: white;
+    cursor: pointer;
+    display: table;
+    position: absolute;
+    bottom: 10.4%;
+    height: 40%;
+    transition: .5s ease;
+    font-size: 20px;
+    padding: 20px;
+    opacity: 0;
+    text-align: center;
+}
 
+.showCarousel
+{
+    position: absolute;
+   
+    color: white;
+    font-size: 20px;
+    width: 20%;
+    bottom:10%;
+    
+}
 
+.showCarousel button, .showCarousel button:hover
+{
+    background-color: rgba(34, 34, 34, 0.863);
+    border: 0px;
+    height: 20%;
+}
+
+.carousel-caption
+{
+    bottom: 0px;
+    font-size: 20px;
+}
