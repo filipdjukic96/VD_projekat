@@ -1,10 +1,11 @@
 Milica
--Popuni formu za Marvel
+--------
+-Popuni formu za Marvel-->check
 -Ziri-->check
 -Sponzori-->check
 -Program-filmovi
 -Prodajna mesta-->check
--Vesti-->
+-Vesti-->check, djelimicno
 
 
 
@@ -20,6 +21,7 @@ Milica
 
 
 Filip
+-------
 -O festivalu-->check
 -Nagrade-->check, samo promijeniti list style na custom!!!!
 -Kontakt-->check
