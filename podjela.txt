@@ -1,10 +1,10 @@
 Milica
 -Popuni formu za Marvel
--Ziri
--Sponzori
+-Ziri-->check
+-Sponzori-->check
 -Program-filmovi
 -Prodajna mesta-->check
--Vesti
+-Vesti-->
 
 
 
