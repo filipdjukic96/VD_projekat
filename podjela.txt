@@ -1,10 +1,10 @@
 Milica
 -Popuni formu za Marvel
--Ziri        !!! checked
--Sponzori    !!! checked
--Program-filmovi 
--Prodajna mesta
--Vesti !!! in progress 
+-Ziri
+-Sponzori
+-Program-filmovi
+-Prodajna mesta-->check
+-Vesti
 
 
 
@@ -20,8 +20,8 @@ Milica
 
 
 Filip
--O festivalu-->check, samo popraviti text justify
--Nagrade-->check, samo promijeniti list style na custom
+-O festivalu-->check
+-Nagrade-->check, samo promijeniti list style na custom!!!!
 -Kontakt-->check
 -Mesta projekcija-->check
--Glumci-->check, ostalo da se napravi posebno stranica za svakog glumca
+-Glumci-->check, i odradjena posebno stranica za svakog
