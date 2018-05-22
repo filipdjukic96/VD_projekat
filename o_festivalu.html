@@ -10,6 +10,10 @@
     <meta name="author" content="">
     
     <title>Filmchella - O festivalu </title>
+
+     <!--Lightbox-->
+     <link href="dist/css/lightbox.css" rel="stylesheet">
+
      <!-- Country flags CSS-->
      <link href="css/flags/flag-icon.css" rel=stylesheet type="text/css">
      <link href="css/flags/flag-icon.min.css" rel=stylesheet type="text/css">
@@ -42,69 +46,69 @@
 
   <body id="page-top">
  <!-- ---------------------------------------------------Header--------------------------------------------------- -->
-<div class = "container">
-  <div class = "row">
-    <div class = "col-lg-12">
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg fixed-top text-uppercase" id="mainNav">
-      <div class="container-fluid">
-        <div class = "navbar-brand">
-          
-            <img src = "logo.png" style = "width: 100px; height: 70px">
-            FILMCHELLA
-        </div>
-        <button class="navbar-toggler navbar-toggler-right text-uppercase  rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          Menu
-          <i class="fa fa-bars"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#">POČETNA</a>
-            </li>
-            <li class="nav-item mx-0 mx-lg-1 dropdown ">
-                  <a id = "prviDrop" class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"  data-toggle = "dropdown" href="#">INFORMACIJE
+ <div class = "container">
+    <div class = "row">
+      <div class = "col-lg-12">
+      <!-- Navigation -->
+      <nav class="navbar navbar-expand-lg fixed-top text-uppercase" id="mainNav">
+        <div class="container-fluid">
+          <div class = "navbar-brand">
+            
+              <img src = "logo.png" style = "width: 100px; height: 70px">
+              FILMCHELLA
+          </div>
+          <button class="navbar-toggler navbar-toggler-right text-uppercase  rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            Menu
+            <i class="fa fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item mx-0 mx-lg-1">
+                <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="index.html">POČETNA</a>
+              </li>
+              <li class="nav-item mx-0 mx-lg-1 dropdown ">
+                    <a id = "prviDrop" class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"  data-toggle = "dropdown" href="#">INFORMACIJE
+                    </a>
+                  
+                    <ul class = "dropdown-menu" aria-labelledby="prviDrop">
+                        <li class = "dropdown-item"><a href = "o_festivalu.html"> O FESTIVALU </a></li>
+                      <li class = "dropdown-item"><a href = "ziri1.html"> ŽIRI </a></li>
+                      <li class = "dropdown-item"><a href = "nagrade.html"> NAGRADE </a></li>
+                      <li class = "dropdown-item"><a href = "sponzori.html"> SPONZORI </a></li>
+                      <li class = "dropdown-item"><a href = "kontakti.html"> KONTAKT </a></li>
+  
+                    </ul>
+              </li>
+              <li class="nav-item mx-0 mx-lg-1 dropdown">
+                  <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" aria-haspopup = "true" aria-expanded="false" data-toggle = "dropdown" href="#">PROGRAM
                   </a>
                 
-                  <ul class = "dropdown-menu" aria-labelledby="prviDrop">
+                  <ul class = "dropdown-menu">
+                    <li class = "dropdown-item"><a href = "mesta_projekcije.html"> MESTA PROJEKCIJE </a></li>
+                    <li class = "dropdown-item"><a href = "filmovi.html"> FILMOVI </a></li>
+                    <li class = "dropdown-item"><a href = "prodajna_mesta.html"> PRODAJNA MESTA </a></li>
                     
-                    <li class = "dropdown-item"><a href = "#"> ŽIRI </a></li>
-                    <li class = "dropdown-item"><a href = "#"> NAGRADE </a></li>
-                    <li class = "dropdown-item"><a href = "#"> SPONZORI </a></li>
-                    <li class = "dropdown-item"><a href = "#"> KONTAKT </a></li>
-
+                    
+  
                   </ul>
             </li>
-            <li class="nav-item mx-0 mx-lg-1 dropdown">
-                <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" aria-haspopup = "true" aria-expanded="false" data-toggle = "dropdown" href="#">PROGRAM
-                </a>
-              
-                <ul class = "dropdown-menu">
-                  <li class = "dropdown-item"><a href = "#"> MESTA PROJEKCIJE </a></li>
-                  <li class = "dropdown-item"><a href = "#"> FILMOVI </a></li>
-                  <li class = "dropdown-item"><a href = "#"> PRODAJNA MESTA </a></li>
-                  
-                  
-
-                </ul>
-          </li>
-            <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#">GLUMCI</a>
-            </li>
-            <li class="nav-item mx-0 mx-lg-1">
-                <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#">VESTI</a>
+              <li class="nav-item mx-0 mx-lg-1">
+                <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="glumci1.html">GLUMCI</a>
               </li>
-          </ul>
+              <li class="nav-item mx-0 mx-lg-1">
+                  <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="vesti.html">VESTI</a>
+                </li>
+            </ul>
+          </div>
+          <div id="flags">
+      
+            <a href="o_festivalu_en.html"><span class="flag-icon flag-icon-gb"></span></a>
+          </div>
         </div>
-        <div id="flags">
-    
-          <a href="o_festivalu_en.html"><span class="flag-icon flag-icon-gb"></span></a>
-        </div>
+      </nav>
       </div>
-    </nav>
-    </div>
-    </div>
-</div>
+      </div>
+  </div>
     <!-- About Section -->
   <div class = "container-fluid">
   <div class = "row">
@@ -121,7 +125,13 @@
         
             <div class = "row">
                 <div class = "col-md-12">
+                   
                     <div class = "subtitle">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="index.html">Početna</a></li>
+                            <li class="breadcrumb-item"><a href="o_festivalu.html">Informacije</a></li>
+                            <li class="breadcrumb-item active">O festivalu</li>
+                        </ol>
                         <p> <strong> O FESTIVALU </strong>   </p>
                         <hr>
                     </div>
@@ -161,14 +171,14 @@
             <div class="row mb-3">
                 <div class="col-sm-4">
 
-                    <img src="img/banners/banner1.jpg" class=" img-fluid rounded aboutBottomImage">
+                   <a href="img/banners/banner1.jpg" data-lightbox="aboutfest"><img src="img/banners/banner1.jpg" class=" img-fluid rounded aboutBottomImage"></a> 
                 </div>
                 <div class="col-sm-4">
-                    <img src="img/banners/banner2.jpg" class="img-fluid rounded aboutBottomImage">
+                    <a href="img/banners/banner2.jpg" data-lightbox="aboutfest"><img src="img/banners/banner2.jpg" class="img-fluid rounded aboutBottomImage"></a>
                     
                 </div>
                 <div class="col-sm-4">
-                    <img src="img/banners/banner3.jpg"  class="img-fluid rounded aboutBottomImage">
+                   <a href="img/banners/banner3.jpg"  data-lightbox="aboutfest"> <img src="img/banners/banner3.jpg"  class="img-fluid rounded aboutBottomImage"></a>
                     
                 </div>
             </div>
@@ -217,7 +227,9 @@
   </div>
   </div>
 
-</body>
+ <!--Lightbox-->
+ <script src="dist/js/lightbox-plus-jquery.js"></script>
+
    
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>

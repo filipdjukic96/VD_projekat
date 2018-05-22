@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <!-- Milica -->
 <html lang="en">
-  
   <head>
     
     <meta charset="utf-8">
@@ -17,6 +16,11 @@
       <!-- Latest compiled and minified CSS -->
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
       
+
+    
+    <!--Lightbox-->
+    <link href="dist/css/lightbox.css" rel="stylesheet">
+
       <!-- jQuery library -->
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
       
@@ -66,11 +70,11 @@
                   </a>
                 
                   <ul class = "dropdown-menu" aria-labelledby="prviDrop">
-                    
+                      <li class = "dropdown-item"><a href = "o_festivalu.html"> O FESTIVALU </a></li>
                     <li class = "dropdown-item"><a href = "ziri1.html"> ŽIRI </a></li>
-                    <li class = "dropdown-item"><a href = "#"> NAGRADE </a></li>
-                    <li class = "dropdown-item"><a href = "#"> SPONZORI </a></li>
-                    <li class = "dropdown-item"><a href = "#"> KONTAKT </a></li>
+                    <li class = "dropdown-item"><a href = "nagrade.html"> NAGRADE </a></li>
+                    <li class = "dropdown-item"><a href = "sponzori.html"> SPONZORI </a></li>
+                    <li class = "dropdown-item"><a href = "kontakti.html"> KONTAKT </a></li>
 
                   </ul>
             </li>
@@ -79,19 +83,19 @@
                 </a>
               
                 <ul class = "dropdown-menu">
-                  <li class = "dropdown-item"><a href = "#"> MESTA PROJEKCIJE </a></li>
-                  <li class = "dropdown-item"><a href = "#"> FILMOVI </a></li>
-                  <li class = "dropdown-item"><a href = "#"> PRODAJNA MESTA </a></li>
+                  <li class = "dropdown-item"><a href = "mesta_projekcije.html"> MESTA PROJEKCIJE </a></li>
+                  <li class = "dropdown-item"><a href = "filmovi.html"> FILMOVI </a></li>
+                  <li class = "dropdown-item"><a href = "prodajna_mesta.html"> PRODAJNA MESTA </a></li>
                   
                   
 
                 </ul>
           </li>
             <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#">GLUMCI</a>
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="glumci1.html">GLUMCI</a>
             </li>
             <li class="nav-item mx-0 mx-lg-1">
-                <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#">VESTI</a>
+                <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="vesti.html">VESTI</a>
               </li>
           </ul>
         </div>
@@ -133,26 +137,26 @@
             
             <div class="carousel-inner">
               <div class="carousel-item ">
-                  <img src="img/image8.jpg" alt="First slide">
+                  <img src="img/image8.jpg" class="rounded" alt="First slide">
                   <div class = "carousel-content">
                     <h4 class = "text-white mb-2"> "I have been interested in dreams, really since I was a kid. I have always been fascinated by the idea that your mind, when you are asleep, can create a world in a dream and you are perceiving it as though it really existed.” – Christopher Nolan </h4>
   
                   </div>
               </div>
               <div class="carousel-item ">
-                  <img src="img/film-festivals.jpg" alt="Second slide">
+                  <img src="img/film-festivals.jpg"  class="rounded" alt="Second slide">
                   <div class = "carousel-content">
                       <h4 class = "text-white mb-2">  "All You need for is movie is: a gun and a girl." - Kubrick, Stanley </h4>
                   </div>
               </div>
               <div class="carousel-item ">
-                <img src="img/festival2.jpg" alt="Third York">
+                <img src="img/festival2.jpg"   class="rounded" alt="Third York">
                 <div class = "carousel-content">
                 <h4 class = "text-white mb-2"> "We don't make movies to make money. We make money to make more movies." Disney</h4>
               </div>
             </div>
               <div class="carousel-item active">
-                  <img src="img/imageCarousel1.jpg" alt="Forth York">
+                  <img src="img/imageCarousel1.jpg"  class="rounded" alt="Forth York">
                   <div class = "carousel-content">
                     <h4 class = "text-white mb-2"> "Film is chance to live many lifetimes" </h4>
                 </div>
@@ -243,15 +247,14 @@
           <ul class="carousel-indicators">
             <li data-target="#new" data-slide-to="0" class="active"></li>
             <li data-target="#new" data-slide-to="1"></li>
-            <li data-target="#new" data-slide-to="2"></li>
-            <li data-target="#new  " data-slide-to="3"></li>
+            
           </ul>
         <div class="carousel-inner">
             <div class="carousel-item active">
                   
               <div class = "media">
                 <div class = "media-left" style = "width: 50%;">
-                    <img src = "img/mark-h.jpg"  class = "media-object" style = "height: 300px; width: 80%">
+                    <img src = "img/mark-h.jpg"  class = "media-object rounded" style = "height: 300px; width: 80%">
                 </div>
                 <div class = "media-body">
                     <h4 class = "media-heading"> Čuveni glumac iz "Star Wars" trilogije 
@@ -272,7 +275,7 @@
                     
                 <div class = "media">
                   <div class = "media-left" style = "width: 50%;">
-                      <img src = "img/marvel-games.jpg"  class = "media-object" style = "height: 300px; width: 80%">
+                      <img src = "img/marvel-games.jpg"  class = "media-object rounded" style = "height: 300px; width: 80%">
                   </div>
                   <div class = "media-body">
                       <h4 class = "media-heading"> Organizujemo prvu filmsku debatu! 
@@ -281,8 +284,12 @@
                         kako biste prisustvovali debati i imali učešće u istoj! 
                         </h4>
                       <p>
-                          <button class = "btn btn-dark" href = ""> Popuni forme</button>
+                          <button type = "button" class = "btn btn-dark" data-toggle="modal" data-target="#marvelModal" data-local="#new"> Popuni formu</button>
                       </p>
+
+                 
+
+
                   </div>
   
                 </div>
@@ -298,10 +305,64 @@
               </a>
             
             </div>
+
+                  <!-- Modal -->
+                  <div class="modal fade modal-fullscreen force-fullscreen" id="marvelModal">
+                      <div class="modal-dialog" role="dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLongTitle">Marvel debata</h5>
+                            
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                              <p>
+                                  Na email adresu će Vam stići pozivnica na debatu
+                              </p>
+                            <form>
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Email adresa</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Unesite email">
+                                    <small id="emailHelp" class="form-text text-muted">Vaša email adresa će ostati u našoj internoj bazi podataka.</small>
+                                  </div>
+                                  <div class="form-group">
+                                    <label for="name">Ime</label>
+                                    <input type="text" class="form-control" id="name" placeholder="Ime">
+                                  </div>
+                                  <div class="form-group">
+                                      <label for="surname">Prezime</label>
+                                      <input type="text" class="form-control" id="prezime" placeholder="Prezime">
+                                    </div>
+                                  <div class="form-group">
+                                    <label for="exampleSelect1">Omiljeni marvel junak</label>
+                                    <select class="form-control" id="exampleSelect1">
+                                      <option>Spider-Man</option>
+                                      <option>Hulk</option>
+                                      <option>Thor</option>
+                                      <option>Iron Man</option>
+                                      <option>Daredevil</option>
+                                      <option>Wolverine</option>
+                                      <option>Black Widow</option>
+                                      <option>Luke Cage</option>
+                                    </select>
+                                  </div>
+                            </form>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-dark" data-dismiss="modal">Zatvori</button>
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Sačuvaj</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
           </div>
         </div>
-        
-      </div>
+
+
+    </div>
 
       
        
@@ -355,7 +416,9 @@
   </footer>
  
 
-</body>
+   <!--Lightbox-->
+   <script src="dist/js/lightbox-plus-jquery.js"></script>
+
    
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>

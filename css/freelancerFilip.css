@@ -112,4 +112,29 @@
 
 
 
+.movieInfoTabel{
+    font-size: 30px;
+    border-spacing:20px;
+}
+
+
+.movieTableHead{
+    font-weight: bold;
+}
+
+
+.inputTicket{
+    background-color:lightgray;
+}
+
+.movieInfoTable{
+    border-collapse: separate;
+    border-spacing: 14px;
+    font-size:20px;
+}
+
+.movieGalleryImages img{
+    width:300px;
+    height: auto;
+}
 
