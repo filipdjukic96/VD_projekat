@@ -2,7 +2,7 @@
 
  function ticketReservation(){
               var film = document.ticketForm.movieName.value;
-              alert(film);
+             // alert(film);
             
 
               var ime = document.ticketForm.name.value;
@@ -31,7 +31,7 @@
               if(telefon=="") return;
               var regtelefon = /^(\d{10}|\d{3}-\d{3}-\d{4}|\(\d{3}\)\d{3}-\d{4})$/;
              if(!regtelefon.test(telefon)) alert("telefon nije ok");
-            alert("gotov");
+           // alert("gotov");
 
 
             //povecavanje broja rezervacija
@@ -43,7 +43,7 @@
                     localStorage.setItem(film,1);
                 }
 
-                alert(localStorage.getItem(film));
+                //alert(localStorage.getItem(film));
             } 
 
            
