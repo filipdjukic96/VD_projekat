@@ -8,7 +8,10 @@
       <script language="JavaScript" src="js/js_Filip/rezervacija.js" >
         
       </script>
-    
+      <!--JavaScript za dodavanje filma u omiljene-->
+      <script language="JavaScript" src="js/js_Filip/dodajuomiljene.js" >
+        
+      </script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
@@ -51,69 +54,69 @@
 
   <body id="page-top">
  <!-- ---------------------------------------------------Header--------------------------------------------------- -->
-<div class = "container">
-  <div class = "row">
-    <div class = "col-lg-12">
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg fixed-top text-uppercase" id="mainNav">
-      <div class="container-fluid">
-        <div class = "navbar-brand">
-          
-            <img src = "logo.png" style = "width: 100px; height: 70px">
-            FILMCHELLA
-        </div>
-        <button class="navbar-toggler navbar-toggler-right text-uppercase  rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          Menu
-          <i class="fa fa-bars"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#">POČETNA</a>
-            </li>
-            <li class="nav-item mx-0 mx-lg-1 dropdown ">
-                  <a id = "prviDrop" class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"  data-toggle = "dropdown" href="#">INFORMACIJE
-                  </a>
+ <div class = "container">
+        <div class = "row">
+          <div class = "col-lg-12">
+          <!-- Navigation -->
+          <nav class="navbar navbar-expand-lg fixed-top text-uppercase" id="mainNav">
+            <div class="container-fluid">
+              <div class = "navbar-brand">
                 
-                  <ul class = "dropdown-menu" aria-labelledby="prviDrop">
+                  <img src = "logo.png" style = "width: 100px; height: 70px">
+                  FILMCHELLA
+              </div>
+              <button class="navbar-toggler navbar-toggler-right text-uppercase  rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                Menu
+                <i class="fa fa-bars"></i>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item mx-0 mx-lg-1">
+                    <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="index.html">POČETNA</a>
+                  </li>
+                  <li class="nav-item mx-0 mx-lg-1 dropdown ">
+                        <a id = "prviDrop" class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"  data-toggle = "dropdown" href="#">INFORMACIJE
+                        </a>
+                      
+                        <ul class = "dropdown-menu" aria-labelledby="prviDrop">
+                            <li class = "dropdown-item"><a href = "o_festivalu.html"> O FESTIVALU </a></li>
+                          <li class = "dropdown-item"><a href = "ziri1.html"> ŽIRI </a></li>
+                          <li class = "dropdown-item"><a href = "nagrade.html"> NAGRADE </a></li>
+                          <li class = "dropdown-item"><a href = "sponzori.html"> SPONZORI </a></li>
+                          <li class = "dropdown-item"><a href = "kontakti.html"> KONTAKT </a></li>
+      
+                        </ul>
+                  </li>
+                  <li class="nav-item mx-0 mx-lg-1 dropdown">
+                      <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" aria-haspopup = "true" aria-expanded="false" data-toggle = "dropdown" href="#">PROGRAM
+                      </a>
                     
-                    <li class = "dropdown-item"><a href = "#"> ŽIRI </a></li>
-                    <li class = "dropdown-item"><a href = "#"> NAGRADE </a></li>
-                    <li class = "dropdown-item"><a href = "#"> SPONZORI </a></li>
-                    <li class = "dropdown-item"><a href = "#"> KONTAKT </a></li>
-
-                  </ul>
-            </li>
-            <li class="nav-item mx-0 mx-lg-1 dropdown">
-                <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" aria-haspopup = "true" aria-expanded="false" data-toggle = "dropdown" href="#">PROGRAM
-                </a>
-              
-                <ul class = "dropdown-menu">
-                  <li class = "dropdown-item"><a href = "#"> MESTA PROJEKCIJE </a></li>
-                  <li class = "dropdown-item"><a href = "#"> FILMOVI </a></li>
-                  <li class = "dropdown-item"><a href = "#"> PRODAJNA MESTA </a></li>
-                  
-                  
-
+                      <ul class = "dropdown-menu">
+                        <li class = "dropdown-item"><a href = "mesta_projekcije.html"> MESTA PROJEKCIJE </a></li>
+                        <li class = "dropdown-item"><a href = "filmovi.html"> FILMOVI </a></li>
+                        <li class = "dropdown-item"><a href = "prodajna_mesta.html"> PRODAJNA MESTA </a></li>
+                        
+                        
+      
+                      </ul>
+                </li>
+                  <li class="nav-item mx-0 mx-lg-1">
+                    <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="glumci1.html">GLUMCI</a>
+                  </li>
+                  <li class="nav-item mx-0 mx-lg-1">
+                      <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="vesti.html">VESTI</a>
+                    </li>
                 </ul>
-          </li>
-            <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#">GLUMCI</a>
-            </li>
-            <li class="nav-item mx-0 mx-lg-1">
-                <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#">VESTI</a>
-              </li>
-          </ul>
-        </div>
-        <div id="flags">
-    
-          <a href="avenger_en.html"><span class="flag-icon flag-icon-gb"></span></a>
-        </div>
+              </div>
+              <div id="flags">
+          
+                <a href="avengers_en.html"><span class="flag-icon flag-icon-gb"></span></a>
+              </div>
+            </div>
+          </nav>
+          </div>
+          </div>
       </div>
-    </nav>
-    </div>
-    </div>
-</div>
     <!-- About Section -->
   <div class = "container-fluid">
   <div class = "row">
@@ -130,6 +133,12 @@
     <div class="row">
        <div class="col-sm-12">
         <div class = "subtitle">
+                <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="index.html">Početna</a></li>
+                        <li class="breadcrumb-item"><a href="filmovi.html">Program</a></li>
+                        <li class="breadcrumb-item"><a href="filmovi.html">Filmovi</a></li>
+                        <li class="breadcrumb-item active">The Avengers</li>
+                </ol>
             <p> <strong> THE AVENGERS </strong>   </p>
             <hr>
             
@@ -207,12 +216,15 @@
                     <td class="movieTableHead">Distributer:</td>
                     <td> Marvel Studios </td>
                 </tr>
+                <tr>
+                        <td colspan="2"><center><button class="btn btn-dark" onclick="addToFavorites()">Dodaj u omiljene</button>  </center></td>
+                </tr>
             </table>
         </div>
         <div class="col-sm-6">
             <!-- Forma-->
             <form name="ticketForm">
-                <input type="hidden" name="movieName" value="Avengers">
+                <input type="hidden" name="movieName" value="The Avengers">
                 <div class="form-group">
                     <label for="name" id="nameLabel">Ime</label>
                     <input type="text" class="form-control inputTicket" id="name" aria-describedby="emailHelp" placeholder="Unesite ime">

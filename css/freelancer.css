@@ -464,17 +464,13 @@ a:focus, a:hover, a:active {
   color: #424141;
 }
 
-.bg-primary .breadcrumb
+.bg-primary 
 {
   color: #B47F41;
   background-color: #999999;
 }
 
-.breadcrumb  a
-{
-  text-decoration: none;
-  color: #B47F41;
-}
+
 
 
 
@@ -655,4 +651,31 @@ body
 {
     font-size: 20px;
 }
+
+
+.breadcrumb{
+  background-color:#747171;
+  color:black;
+}
+
+.breadcrumb li{
+  color:black ;
+
+}
+/* za aktivne breadcrumb elemente*/
+.breadcrumb-item.active{
+  color:rgb(255, 174, 0);
+}
+
+.breadcrumb-item{
+  color:rgb(95, 53, 5);
+}
+.breadcrumb a{
+  text-decoration: none;
+  color:rgb(95, 53, 5);
+}
+
+.breadcrumb>li+li:before { padding: 0 5px; color: black; content: ">"; }
+
+
 

@@ -8,7 +8,10 @@
       <script language="JavaScript" src="js/js_Filip/rezervacija.js" >
         
       </script>
-    
+      <!--JavaScript za dodavanje filma u omiljene-->
+      <script language="JavaScript" src="js/js_Filip/dodajuomiljene.js" >
+        
+      </script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
@@ -77,10 +80,10 @@
                 
                   <ul class = "dropdown-menu" aria-labelledby="prviDrop">
                     
-                    <li class = "dropdown-item"><a href = "#"> ŽIRI </a></li>
-                    <li class = "dropdown-item"><a href = "#"> NAGRADE </a></li>
-                    <li class = "dropdown-item"><a href = "#"> SPONZORI </a></li>
-                    <li class = "dropdown-item"><a href = "#"> KONTAKT </a></li>
+                    <li class = "dropdown-item"><a href = "ziri1.html"> ŽIRI </a></li>
+                    <li class = "dropdown-item"><a href = "nagrade.html"> NAGRADE </a></li>
+                    <li class = "dropdown-item"><a href = "sponzori.html"> SPONZORI </a></li>
+                    <li class = "dropdown-item"><a href = "kontakti.html"> KONTAKT </a></li>
 
                   </ul>
             </li>
@@ -89,19 +92,19 @@
                 </a>
               
                 <ul class = "dropdown-menu">
-                  <li class = "dropdown-item"><a href = "#"> MESTA PROJEKCIJE </a></li>
-                  <li class = "dropdown-item"><a href = "#"> FILMOVI </a></li>
-                  <li class = "dropdown-item"><a href = "#"> PRODAJNA MESTA </a></li>
+                  <li class = "dropdown-item"><a href = "mesta_projekcije.html"> MESTA PROJEKCIJE </a></li>
+                  <li class = "dropdown-item"><a href = "filmoci.html"> FILMOVI </a></li>
+                  <li class = "dropdown-item"><a href = "prodajna_mesta.html"> PRODAJNA MESTA </a></li>
                   
                   
 
                 </ul>
           </li>
             <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#">GLUMCI</a>
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="glumci1.html">GLUMCI</a>
             </li>
             <li class="nav-item mx-0 mx-lg-1">
-                <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#">VESTI</a>
+                <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="vesti.html">VESTI</a>
               </li>
           </ul>
         </div>
@@ -130,6 +133,12 @@
     <div class="row">
        <div class="col-sm-12">
         <div class = "subtitle">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html">Početna</a></li>
+                <li class="breadcrumb-item"><a href="filmovi.html">Program</a></li>
+                <li class="breadcrumb-item"><a href="filmovi.html">Filmovi</a></li>
+                <li class="breadcrumb-item active">Ubistvo u Orijent ekspresu</li>
+            </ol>
             <p> <strong> UBISTVO U ORIJENT EKSPRESU </strong>   </p>
             <hr>
             
@@ -203,12 +212,15 @@
                     <td class="movieTableHead">Distributer:</td>
                     <td> 20th Century Fox</td>
                 </tr>
+                <tr>
+                        <td colspan="2"><center><button class="btn btn-dark" onclick="addToFavorites()">Dodaj u omiljene</button>  </center></td>
+                </tr>
             </table>
         </div>
         <div class="col-sm-6">
             <!-- Forma-->
             <form name="ticketForm">
-                <input type="hidden" name="movieName" value="OrientExpress">
+                <input type="hidden" name="movieName" value="Murder on the Orient Express">
                 <div class="form-group">
                     <label for="name" id="nameLabel">Ime</label>
                     <input type="text" class="form-control inputTicket" id="name" aria-describedby="emailHelp" placeholder="Unesite ime">
