@@ -1,29 +1,30 @@
+Prevod:
+
 Milica
 --------
--Popuni formu za Marvel-->check
--Ziri-->check
--Sponzori-->check
--Program-filmovi
--Prodajna mesta-->check
--Vesti-->check, djelimicno
-
-
-
-
-
-
-
-
-
+Vesti
+Pocetna
+O festivalu
+Mesta Projekcije
+Prodajna Mesta
+Filmovi
+Deadpool
+The Avengers
+glumci na 2. strani
 
 
 
 
 
 Filip
--------
--O festivalu-->check
--Nagrade-->check, samo promijeniti list style na custom!!!!
--Kontakt-->check
--Mesta projekcija-->check
--Glumci-->check, i odradjena posebno stranica za svakog
+-----
+Ziri
+Nagrade
+Sponzoru
+Kontakt
+The hateful eight
+orient express
+the hobbit
+glumci1
+glumci2
+glumci na 1. strani
