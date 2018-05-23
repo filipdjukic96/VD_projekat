@@ -329,7 +329,7 @@ form .row:first-child .floating-label-form-group {
 
 .footer {
   position: relative;
-  
+  margin-top: 20px;
   bottom: 0px;
   width: 100%;
   padding-top: 5rem;
