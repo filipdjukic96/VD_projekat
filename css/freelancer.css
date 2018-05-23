@@ -103,13 +103,13 @@ section h2 {
   padding-bottom: 4rem;
   font-weight: 700;
   font-family: 'Montserrat' !important;
-  background-color: #424141;
+  background-color: #727776;
   text-align: justify; 
   
 }
 
 #mainNav .navbar-brand {
-  color:#B47F41;
+  color:#d8d1bb;
 }
 
 #mainNav .navbar-nav {
@@ -118,7 +118,7 @@ section h2 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link {
-  color: #B47F41;
+  color: #d8d1bb;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
@@ -126,7 +126,7 @@ section h2 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
-  color: #B47F41;
+  color: rgb(172, 156, 137);
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
@@ -334,8 +334,8 @@ form .row:first-child .floating-label-form-group {
   width: 100%;
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: #424141;
-  color: #B47F41;
+  background-color: #727776;
+  color: #d8d1bb;
   
 }
 footer
@@ -353,7 +353,7 @@ a {
 
 
 a:focus, a:hover, a:active {
-  color: rgb(95, 53, 5);
+  color: rgb(129, 120, 110);
   text-decoration: none;
 }
 
@@ -403,14 +403,14 @@ a:focus, a:hover, a:active {
 
 .dropdown-menu
 {
-  background-color: rgba(59, 59, 59, 0.808) !important;
+  background-color: #727776c0 !important;
   margin-top: -10px;
   min-width: 7rem;
 }
 
 .dropdown-menu a
 {
-  color: #B47F41;
+  color: #d8d1bb;
   font-family: 'Montserrat';
   text-decoration: none;
 }
@@ -427,7 +427,7 @@ a:focus, a:hover, a:active {
 
 .dropdown-item a
 {
-  color:  #B47F41; 
+  color:  #d8d1bb; 
   font-weight: bold;
   
 }
@@ -442,31 +442,31 @@ a:focus, a:hover, a:active {
     display: block;
 }
 
-.dropdown:hover .dropdown-menu{
-  display:block;
-}
+  .dropdown:hover .dropdown-menu{
+    display:block;
+  }
 
 .navbar-toggler
 {
-  color: #B47F41;
+  color: #d8d1bb;;
 }
 
 .navbar-brand
 {
-  color: #B47F41;
+  color: #d8d1bb;;
 }
 
 .firstSection
 {
   margin: 0px;
   padding-bottom: 30px; 
-  background-color: #424141;
+  background-color: #d8d1bb;
   color: #424141;
 }
 
 .bg-primary 
 {
-  color: #B47F41;
+  color: rgb(155, 144, 131);
   background-color: #999999;
 }
 
@@ -511,7 +511,7 @@ span.carousel-control-prev-icon, .carousel-control-next-icon
 
 .row
 {
-  background-color: #747171;
+  background-color: #d8d1bb;
 }
 
 .subtitle
@@ -606,7 +606,7 @@ span.carousel-control-prev-icon, .carousel-control-next-icon
 hr
 {
   
-  background-color: #a3a1a1b9;
+  background-color: rgba(209, 202, 178, 0.63);
   left: 0;
   height: 1px;
  
@@ -618,7 +618,7 @@ container-fluid
 {
   padding: 0;
   margin: 0;
-  background-color: #747171
+  background-color: #d8d1bb;
 }
 #page-top
 {
@@ -627,7 +627,7 @@ container-fluid
 
 body
 {
-  background-color: #747171
+  background-color: #d8d1bb;
 }
 
 .social-banners{
@@ -642,8 +642,8 @@ body
 
 .page-link
 {
-    color:  rgb(95, 53, 5) !important;
-    background-color:  #888686 !important;
+    color:  rgb(27, 27, 29) !important;
+    background-color:  #97938f8a !important;
     border-color: #bbb4b4;
 }
 
@@ -654,7 +654,7 @@ body
 
 
 .breadcrumb{
-  background-color:#747171;
+  background-color:#d8d1bb;
   color:black;
 }
 
@@ -664,7 +664,7 @@ body
 }
 /* za aktivne breadcrumb elemente*/
 .breadcrumb-item.active{
-  color:rgb(255, 174, 0);
+  color:rgb(114, 100, 100);
 }
 
 .breadcrumb-item{
@@ -679,3 +679,17 @@ body
 
 
 
+.breadcrumb-item+.breadcrumb-item::before
+{
+  color: rgb(95, 53, 5) !important;
+}
+
+h4.media-heading
+{
+  font-family: "Georgia";
+}
+
+.subtitle strong
+{
+  font-family: "Georgia";
+}
