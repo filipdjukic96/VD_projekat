@@ -33,7 +33,7 @@ glumci na 1. strani
 
 ----HEADER------------------------
 
-  <div class = "container">
+   <div class = "container">
                 <div class = "row">
                   <div class = "col-lg-12">
                   <!-- Navigation -->
@@ -51,18 +51,18 @@ glumci na 1. strani
                       <div class="collapse navbar-collapse" id="navbarResponsive">
                         <ul class="navbar-nav ml-auto">
                           <li class="nav-item mx-0 mx-lg-1">
-                            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="index.html">POČETNA</a>
+                            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="index_en.html">HOME</a>
                           </li>
                           <li class="nav-item mx-0 mx-lg-1 dropdown ">
-                                <a id = "prviDrop" class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"  data-toggle = "dropdown" href="#">INFORMACIJE
+                                <a id = "prviDrop" class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"  data-toggle = "dropdown" href="#">ABOUT
                                 </a>
                               
                                 <ul class = "dropdown-menu" aria-labelledby="prviDrop">
-                                    <li class = "dropdown-item"><a href = "o_festivalu.html"> O FESTIVALU </a></li>
-                                  <li class = "dropdown-item"><a href = "ziri1.html"> ŽIRI </a></li>
-                                  <li class = "dropdown-item"><a href = "nagrade.html"> NAGRADE </a></li>
-                                  <li class = "dropdown-item"><a href = "sponzori.html"> SPONZORI </a></li>
-                                  <li class = "dropdown-item"><a href = "kontakti.html"> KONTAKT </a></li>
+                                    <li class = "dropdown-item"><a href = "o_festivalu_en.html"> ABOUT FEST </a></li>
+                                  <li class = "dropdown-item"><a href = "ziri1_en.html"> JURY </a></li>
+                                  <li class = "dropdown-item"><a href = "nagrade_en.html"> AWARDS </a></li>
+                                  <li class = "dropdown-item"><a href = "sponzori_en.html"> SPONSORS </a></li>
+                                  <li class = "dropdown-item"><a href = "kontakti_en.html"> CONTACT</a></li>
               
                                 </ul>
                           </li>
@@ -71,36 +71,31 @@ glumci na 1. strani
                               </a>
                             
                               <ul class = "dropdown-menu">
-                                <li class = "dropdown-item"><a href = "mesta_projekcije.html"> MESTA PROJEKCIJE </a></li>
-                                <li class = "dropdown-item"><a href = "filmovi.html"> FILMOVI </a></li>
-                                <li class = "dropdown-item"><a href = "prodajna_mesta.html"> PRODAJNA MESTA </a></li>
+                                <li class = "dropdown-item"><a href = "mesta_projekcije_en.html"> SHOWING </a></li>
+                                <li class = "dropdown-item"><a href = "filmovi_en.html"> MOVIES </a></li>
+                                <li class = "dropdown-item"><a href = "prodajna_mesta_en.html"> WHERE YOU CAN BUY </a></li>
                                 
                                 
               
                               </ul>
                         </li>
                           <li class="nav-item mx-0 mx-lg-1">
-                            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="glumci1.html">GLUMCI</a>
+                            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="glumci1_en.html">ACTORS</a>
                           </li>
                           <li class="nav-item mx-0 mx-lg-1">
-                              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="vesti.html">VESTI</a>
+                              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="vesti_e.html">NEWS</a>
                             </li>
                         </ul>
                       </div>
                       <div id="flags">
                   
-                        <a href="ziri1.1_en.html"><span class="flag-icon flag-icon-gb"></span></a>
+                        <a href="ziri1.html"><span class="flag-icon flag-icon-rs"></span></a>
                       </div>
                     </div>
                   </nav>
                   </div>
                   </div>
               </div>
-
-
-
-
-
 
 
 
