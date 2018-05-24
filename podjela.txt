@@ -18,7 +18,7 @@ glumci na 2. strani
 
 Filip
 -----
-Ziri
+Ziri-->check
 Nagrade
 Sponzoru
 Kontakt
@@ -83,7 +83,7 @@ glumci na 1. strani
                             <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="glumci1_en.html">ACTORS</a>
                           </li>
                           <li class="nav-item mx-0 mx-lg-1">
-                              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="vesti_e.html">NEWS</a>
+                              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="vesti_en.html">NEWS</a>
                             </li>
                         </ul>
                       </div>
