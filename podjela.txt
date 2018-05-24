@@ -30,10 +30,10 @@ Deadpool-->check
 orient express-->check
 The Avengers-->check
 the hobbit-->check
-Filmovi
+Filmovi-->check
 
 
-glumci na 1. strani
+glumci na 1. strani-->check
 
 
 ----HEADER------------------------
