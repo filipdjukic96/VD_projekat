@@ -24,10 +24,10 @@ Nagrade-->check
 Sponzori-->check
 Kontakt-->check
 The hateful eight-->check
-Deadpool
-orient express
-The Avengers
-the hobbit
+Deadpool-->check
+orient express-->check
+The Avengers-->check
+the hobbit-->check
 Filmovi
 
 
