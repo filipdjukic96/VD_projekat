@@ -1,5 +1,5 @@
 /*IZ NEKOG RAZLOGA COOKIE NE RADI U CHROME, POGLEDATI I RIJESITI, U MOZILI RADI SVE FUL */
-
+/*
 function setCookie(cname,cval){
     alert("postavlja cookie: "+cname+"="+cval);
     document.cookie = cname+"="+cval;
@@ -28,7 +28,7 @@ function getCookie(c_name){
         
         
 }
-
+*/
 
 
  function ticketReservation(){
@@ -64,7 +64,7 @@ function getCookie(c_name){
              if(!regtelefon.test(telefon)) alert("telefon nije ok");
            // alert("gotov");
 
-
+            /*
            //rezervisanje
             var numReservation = getCookie(film);//citanje broja rezervacija
             alert("prosao1");
@@ -79,7 +79,20 @@ function getCookie(c_name){
                 setCookie(film,num);
                 alert("ima cookie");
             }
-          
+          */
+
+         if ('localStorage' in window && window.localStorage !== null) {
+            if(localStorage.getItem(film) !== null){
+                    var val = parseInt(localStorage.getItem(film),10);
+                    val++;
+                    localStorage.setItem(film,val);
+                }else{
+                    val = film;
+                    localStorage.setItem(film,1);
+                }
+    
+                //alert(localStorage.getItem(film));
+            } 
 
            
           }
