@@ -138,3 +138,9 @@
     height: auto;
 }
 
+
+.filmSlika img{
+    width:100% !important;
+    height: auto;
+    border-radius: 25px;
+}
