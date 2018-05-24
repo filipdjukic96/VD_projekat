@@ -45,7 +45,7 @@ var movieHobbit =
 var movieHatefull =
 {
     id: "HatefullEight",
-    title:"<a href = \"hatefull_eight.html\"> HATEFULL EIGHT </a>",
+    title:"<a href = \"hateful_eight.html\"> HATEFUL EIGHT </a>",
     bout: "Radnja je smještena desetak godina nakon Građanskog rata i prati dogodovštine Marquisa Warrena (SamuelL.Jackson), bivšeg\
     vojnika Unije i lovca na glave blokiranog snježnom olujom u malom gradiću u Coloradu.\
     U zanimljivoj vožnji se igrom slučaja upoznaje sa Russellovim likom Johnom Ruthom koji\
