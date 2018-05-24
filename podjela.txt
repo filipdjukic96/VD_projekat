@@ -7,9 +7,10 @@ Pocetna
 O festivalu
 Mesta Projekcije
 Prodajna Mesta
-Filmovi
-Deadpool
+
 The Avengers
+glumci1
+glumci2
 glumci na 2. strani
 
 
@@ -19,14 +20,17 @@ glumci na 2. strani
 Filip
 -----
 Ziri-->check
-Nagrade
-Sponzoru
-Kontakt
-The hateful eight
+Nagrade-->check
+Sponzori-->check
+Kontakt-->check
+The hateful eight-->check
+Deadpool
 orient express
+The Avengers
 the hobbit
-glumci1
-glumci2
+Filmovi
+
+
 glumci na 1. strani
 
 
