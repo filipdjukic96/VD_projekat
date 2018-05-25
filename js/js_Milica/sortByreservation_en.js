@@ -12,7 +12,7 @@ var movieDeadpool =
 var movieOrient =
     {
         id: "Murder on Orient Express",
-        title: "<a href=\"orient_express_en.html\"> MURDER ON ORIENT EXPRESS </a>",
+        title: "<a href=\"orient_express_en.html\"> MURDER ON THE ORIENT EXPRESS </a>",
         bout: "Murder on the Orient Express is a 2017 mystery drama film directed by Kenneth Branagh with a screenplay by Michael Green, based on the 1934 novel of the same name by Agatha Christie. The film stars Branagh as Hercule Poirot, with Penélope Cruz, Willem Dafoe, Judi Dench, Johnny Depp, Josh Gad, Derek Jacobi, Leslie Odom Jr., Michelle Pfeiffer, and Daisy Ridley in supporting roles. The film is the fourth screen adaptation of Christie's novel, following the 1974 film, a 2001 TV film version, and a 2010 episode of the television series Agatha Christie's Poirot.[6] The plot follows Poirot, a world-renowned detective, as he seeks to solve a murder on the famous trans-European train in the 1930s\
     ",
         image: "<img src=\"img/filmovi_stranica/express/murder-on-orient-express-.jpg\">",
@@ -33,7 +33,7 @@ var movieHobbit =
 var movieHatefull =
     {
         id: "HatefullEight",
-        title: "<a href = \"hateful_eight_en.html\"> HATEFUL EIGHT </a>",
+        title: "<a href = \"hateful_eight_en.html\">THE HATEFUL EIGHT </a>",
         bout: "The Hateful Eight (often marketed as The H8ful Eight) is a 2015 American Western film written and directed by Quentin Tarantino. It stars Samuel L. Jackson, Kurt Russell, Jennifer Jason Leigh, Walton Goggins, Demián Bichir, Tim Roth, Michael Madsen, and Bruce Dern as eight strangers who seek refuge from a blizzard in a stagecoach stopover some time after the American Civil War.",
         image: " <img src = \"img/filmovi_stranica/hateful/hatefull1.jpg\">",
         popularity: 0

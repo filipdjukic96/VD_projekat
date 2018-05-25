@@ -1,14 +1,14 @@
 function addToFavorites(){
     var film = document.ticketForm.movieName.value;
-    
+    var key =film+"R";
     if ('localStorage' in window && window.localStorage !== null) {
-        if(localStorage.getItem("favorites") !== null){
-                var val = localStorage.getItem("favorites");
+        if(localStorage.getItem(key) !== null){
+              /*  var val = localStorage.getItem("favorites");
                 val += "-"+film;
-                localStorage.setItem("favorites",val);
+                localStorage.setItem("favorites",val);*/
             }else{
-                val = film;
-                localStorage.setItem("favorites",film);
+               
+                localStorage.setItem(key,"YES");
             }
 
             //alert(localStorage.getItem(film));

@@ -16,7 +16,7 @@ var movieDeadpool =
 var movieOrient = 
 {
     id: "Murder on Orient Express",
-    title: "<a href=\"orient_express.html\"> MURDER ON ORIENT EXPRESS </a>",
+    title: "<a href=\"orient_express.html\"> MURDER ON THE ORIENT EXPRESS </a>",
     bout:   "Murder on the Orient Express je novi film britansko-američke produkcije, čiji je režiser Kenneth Branagh, koji ujedno tumači\
     i ulogu glavnog glumca. Film je rađen po jednom od najpopularnijih romana Agathae Christie,\
     koja je čuvena po svojim kriminalističkim romanima. Radnja filma prati detektiva Herculea\
@@ -45,7 +45,7 @@ var movieHobbit =
 var movieHatefull =
 {
     id: "HatefullEight",
-    title:"<a href = \"hateful_eight.html\"> HATEFUL EIGHT </a>",
+    title:"<a href = \"hateful_eight.html\">THE HATEFUL EIGHT </a>",
     bout: "Radnja je smještena desetak godina nakon Građanskog rata i prati dogodovštine Marquisa Warrena (SamuelL.Jackson), bivšeg\
     vojnika Unije i lovca na glave blokiranog snježnom olujom u malom gradiću u Coloradu.\
     U zanimljivoj vožnji se igrom slučaja upoznaje sa Russellovim likom Johnom Ruthom koji\

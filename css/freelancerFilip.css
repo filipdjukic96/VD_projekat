@@ -144,3 +144,18 @@
     height: auto;
     border-radius: 25px;
 }
+
+#favoriteMovies{
+    text-align: center;
+    align-content: center;
+}
+#favoriteMovies img{
+    width:700px !important;
+    height:auto;
+    border-radius: 25px;
+}
+
+#favoriteMovies a{
+    font-size: 35px;
+    font-weight: bold;
+}
