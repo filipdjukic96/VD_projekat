@@ -50,8 +50,10 @@ function showFavoriteMovies(){
     }
 
   //  alert("usao!");
-
-    document.getElementById("favoriteMovies").innerHTML = favorites;
+    if(favorites!="")
+        document.getElementById("favoriteMovies").innerHTML = favorites;
+    else 
+        document.getElementById("favoriteMovies").innerHTML = "NEMATE OMILJENIH FILMOVA!"
    // alert("usao!");
 }
 
@@ -114,8 +116,10 @@ function showFavoriteMoviesEn(){
  
    //  alert("usao!");
  
-     document.getElementById("favoriteMovies").innerHTML = favorites;
-    // alert("usao!");
+   if(favorites!="")
+        document.getElementById("favoriteMovies").innerHTML = favorites;
+    else 
+        document.getElementById("favoriteMovies").innerHTML =  "YOU HAVE NO FAVORITE MOVIES!"
 
 
 

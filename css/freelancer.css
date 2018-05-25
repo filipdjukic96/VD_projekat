@@ -459,9 +459,11 @@ a:focus, a:hover, a:active {
 .firstSection
 {
   margin: 0px;
-  padding-bottom: 30px; 
+ /* margin-bottom: 50px;*/
+  padding-bottom: 0px;
   background-color: #d8d1bb;
   color: #424141;
+
 }
 
 .bg-primary 
