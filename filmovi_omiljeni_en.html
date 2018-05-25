@@ -3,13 +3,12 @@
 
 <head>
 
-    <script language = "JavaScript" src = "js/js_Milica/sortByreservation_en.js"></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
-    <meta name="author" content="">       
+    <meta name="author" content="">
 
-    <title>Filmchella - Filmovi </title>
+    <title>Filmchella - Favorite movies </title>
     <!-- Country flags CSS-->
     <link href="css/flags/flag-icon.css" rel=stylesheet type="text/css">
     <link href="css/flags/flag-icon.min.css" rel=stylesheet type="text/css">
@@ -36,13 +35,10 @@
     <link href="css/freelancer.min.css" rel="stylesheet">
     <link href="css/freelancer.css" rel="stylesheet">
     <link href="css/freelancerMilica.css" rel="stylesheet">
-    <link href="css/freelancerFilip.css" rel="stylesheet">
-
 
 </head>
 
-<body id="page-top" onload="fillMoviesPopularity()">
-
+<body id="page-top">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
@@ -61,10 +57,10 @@
                         <div class="collapse navbar-collapse" id="navbarResponsive">
                             <ul class="navbar-nav ml-auto">
                                 <li class="nav-item mx-0 mx-lg-1">
-                                    <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="index.html">POČETNA</a>
+                                    <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="index_en.html">HOME</a>
                                 </li>
                                 <li class="nav-item mx-0 mx-lg-1 dropdown ">
-                                    <a id="prviDrop" class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" data-toggle="dropdown" href="#">INFORMACIJE
+                                    <a id="prviDrop" class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" data-toggle="dropdown" href="#">ABOUT
                                     </a>
 
                                     <ul class="dropdown-menu" aria-labelledby="prviDrop">
@@ -81,7 +77,7 @@
                                             <a href="sponzori_en.html"> SPONSORS </a>
                                         </li>
                                         <li class="dropdown-item">
-                                            <a href="kontakti_en.html"> CONTACT </a>
+                                            <a href="kontakti_en.html"> CONTACT</a>
                                         </li>
 
                                     </ul>
@@ -116,7 +112,7 @@
                         </div>
                         <div id="flags">
 
-                            <a href="filmovi_rezervacije.html">
+                            <a href="filmovi_omiljeni.html">
                                 <span class="flag-icon flag-icon-rs"></span>
                             </a>
                         </div>
@@ -153,28 +149,28 @@
                         <li class="breadcrumb-item">
                             <a href="filmovi_en.html">Program</a>
                         </li>
-                        <li class="breadcrumb-item active">Movies</li>
+                        <li class="breadcrumb-item active">Favorite movies</li>
                     </ol>
 
                 </div>
                 <div class="col-lg-2 pull-right">
-                    <button class="btn btn-secondary" data-toggle="dropdown">Sort</button>
+                        <button class="btn btn-secondary" data-toggle="dropdown" >Sort</button>
 
-                    <ul class="dropdown-menu" aria-labelledby="sortDrop">
-                        <li class="dropdown-item">
-                            <a href="filmovi_en.html">By name </a>
-                        </li>
-                        <li class="dropdown-item">
-                            <a href="filmovi_projekcije_en.html"> By showing </a>
-                        </li>
-                        <li class="dropdown-item">
-                            <a href="filmovi_rezervacije_en.html"> By number of resevations </a>
-                        </li>
+                            <ul class="dropdown-menu" aria-labelledby="sortDrop">
+                                <li class="dropdown-item">
+                                    <a href="filmovi.html">By name </a>
+                                </li>
+                                <li class="dropdown-item">
+                                    <a href="filmovi_projekcije.html"> By showing location </a>
+                                </li>
+                                <li class="dropdown-item">
+                                    <a href="filmovi_rezervacije.html"> By number of reservations </a>
+                                </li>
+                                <li class="dropdown-item">
+                                    <a href="filmovi_omiljeni_en.html"> Show favorites </a>
+                                </li>
 
-                        <li class="dropdown-item">
-                            <a href="filmovi_omiljeni_en.html"> Show favorites </a>
-                        </li>
-                    </ul>
+                            </ul>
 
                 </div>
             </div>
@@ -189,7 +185,7 @@
                     <div class="subtitle">
 
                         <p>
-                            <strong> MOVIES </strong>
+                            <strong>FAVORITE MOVIES </strong>
                         </p>
                         <hr>
                     </div>
@@ -198,154 +194,17 @@
             </div>
             <!-- ----------------------------- First  ------------------------------>
 
-            <div class="row" id="film1">
-                <div class="col-lg-1"> </div>
-                <div class="col-lg-10">
-                    <div class="media">
-
-                        <div class="col-lg-8">
-                            <div class="media-body" style="width: 100%">
-                                <h4 class="media-heading" id="naslov1">
-
-                                </h4>
-                                <br>
-                                <br>
-                                <p id="opis1">
-
-                                </p>
-
-                            </div>
-                        </div>
-                        <div class="col-lg-4 filmSlika" id="slika1">
-                               
-                        </div>
-                    </div>
-                    <hr>
-                </div>
-                <div class="col-lg-1"></div>
-            </div>
-            <!----------------------------------------  Second --------------------------------------------- -->
-            <div class="row" id="film2">
-                <div class="col-lg-1"> </div>
-                <div class="col-lg-10">
-                    <div class="media">
-                        <div class="col-lg-4 filmSlika" id="slika2">
-
-                        </div>
-                        <div class="col-lg-8">
-                            <div class="media-body" style="width: 100%">
-                                <h4 class="media-heading" id="naslov2">
-
-                                </h4>
-                                <br>
-                                <br>
-                                <p id="opis2">
-
-                                </p>
-
-                            </div>
-                        </div>
-
-                    </div>
-                    <hr>
-                </div>
-                <div class="col-sm-1"> </div>
-            </div>
-
-
-
-
-
-            <!-- ------------------------------ Third -------------------------------------------- -->
-            <div class="row" id="film3">
-                <div class="col-lg-1"></div>
-                <div class="col-lg-10">
-                    <div class="media">
-
-                        <div class="col-lg-8">
-                            <div class="media-body" style="width: 100%">
-                                <h4 class="media-heading" id="naslov3">
-
-                                </h4>
-                                <br>
-                                <br>
-                                <p id="opis3">
-
-                                </p>
-
-                            </div>
-                        </div>
-                        <div class="col-lg-4 filmSlika" id="slika3">
-
-                        </div>
-                    </div>
-                    <hr>
-                </div>
-                <div class="col-lg-1"> </div>
-            </div>
-
-
-            <!-- ----------------------------- Fourth ------------------------------------------ -->
-
-
-
-
-
-            <div class="row">
-                <div class="col-lg-1"></div>
-                <div class="col-lg-10">
-                    <div class="media">
-                        <div class="col-lg-4 filmSlika" id="slika4">
-
-                        </div>
-                        <div class="col-lg-8">
-                            <div class="media-body" style="width: 100%">
-                                <h4 class="media-heading" id="naslov4">
-
-                                </h4>
-                                <br>
-                                <br>
-                                <p id="opis4">
-
-                                </p>
-
-                            </div>
-                        </div>
-                    </div>
-                    <hr>
-                </div>
-                <div class="col-lg-1"> </div>
-            </div>
-            <!-- ---------------------------- fifth ------------------------------------------------>
             <div class="row">
                 <div class="col-lg-1"> </div>
-                <div class="col-lg-10">
-                    <div class="media">
-
-                        <div class="col-lg-8">
-                            <div class="media-body" style="width: 100%">
-                                <h4 class="media-heading" id="naslov5">
-
-                                </h4>
-                                <br>
-                                <br>
-                                <p id="opis5">
-
-                                </p>
-
-                            </div>
-                        </div>
-                        <div class="col-lg-4 filmSlika" id="slika5">
-
-                        </div>
-                    </div>
+                <div class="col-lg-10" id="favoriteMovies">
+            
                     <hr>
                 </div>
                 <div class="col-lg-1"></div>
             </div>
-
+            
         </div>
-
+        
     </div>
 
     <!-- ---------------------------------------------------Footer--------------------------------------------------- -->
