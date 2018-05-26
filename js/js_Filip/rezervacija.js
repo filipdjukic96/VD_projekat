@@ -30,6 +30,35 @@ function getCookie(c_name){
 }
 */
 
+function ispisi(){
+   // alert("ulazi1");
+    if(localStorage["error"]!=null){
+        //alert("ulazi2");
+        document.getElementById("errorLabel").innerHTML = "Odredjeni podaci nisu u korektnom formatu!";
+        localStorage.removeItem("error");
+        //alert("ulazi");
+        document.getElementById("name").scrollIntoView();
+    }else{
+        //alert("ulazi3");
+        document.getElementById("errorLabel").innerHTML = "";
+    }
+}
+
+function ispisiEn(){
+    // alert("ulazi1");
+     if(localStorage["error"]!=null){
+         //alert("ulazi2");
+         document.getElementById("errorLabel").innerHTML = "Particular fields are not in the specified format!";
+         localStorage.removeItem("error");
+         //alert("ulazi");
+         document.getElementById("name").scrollIntoView();
+     }else{
+         //alert("ulazi3");
+         document.getElementById("errorLabel").innerHTML = "";
+     }
+ }
+ 
+
 
  function ticketReservation(){
               var film = document.ticketForm.movieName.value;
@@ -38,30 +67,44 @@ function getCookie(c_name){
 
               var ime = document.ticketForm.name.value;
               //alert(ime);
-             if(ime=="") return;
+             if(ime=="") {
+                localStorage.setItem("error","Y");
+                  return;
+              }
              var regime = /^(\w{3,})$/;
-             if(!regime.test(ime)) alert("ime nije ok");
+             if(!regime.test(ime)) localStorage.setItem("error","Y");
 
 
               var prezime = document.ticketForm.surname.value;
               //alert(prezime);
-              if(prezime=="") return;
+              if(prezime=="") 
+              {
+                localStorage.setItem("error","Y");
+                  return;
+              }
               var regprezime = /^(\w{3,})$/;
-             if(!regprezime.test(prezime)) alert("prezime nije ok");
+             if(!regprezime.test(prezime)) localStorage.setItem("error","Y");
 
 
               var email = document.ticketForm.email.value;
              // alert(email);
-             if(email=="") return;
+             if(email=="") 
+             {
+                localStorage.setItem("error","Y");
+                  return;
+              }
              var regemail =/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
-             if(!regemail.test(email)) alert("email nije ok");
+             if(!regemail.test(email)) localStorage.setItem("error","Y");
 
 
               var telefon = document.ticketForm.telephone.value;
               //alert(telefon);
-              if(telefon=="") return;
+              if(telefon==""){
+                localStorage.setItem("error","Y");
+                  return;
+              }
               var regtelefon = /^(\d{10}|\d{3}-\d{3}-\d{4}|\(\d{3}\)\d{3}-\d{4})$/;
-             if(!regtelefon.test(telefon)) alert("telefon nije ok");
+             if(!regtelefon.test(telefon)) localStorage.setItem("error","Y");
            // alert("gotov");
 
             /*

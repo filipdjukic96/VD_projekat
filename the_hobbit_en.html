@@ -52,7 +52,7 @@
 
 </head>
 
-<body id="page-top">
+<body id="page-top" onload="ispisiEn()">
     <!-- ---------------------------------------------------Header--------------------------------------------------- -->
 
     <div class="container">
@@ -317,7 +317,12 @@
 
                         </select>
                     </div>
-
+                    <div class="form-group">
+                            <center>
+    
+                                <label for="name" id="errorLabel" style="font-size:20px;color:red"></label>
+                            </center>
+                        </div>
                     <center>
                         <button type="submit" class="btn btn-dark" onclick="ticketReservation()">Make a reservation</button>
                     </center>
