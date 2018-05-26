@@ -42,7 +42,7 @@ function showFavoriteMovies(){
 
    // alert("usao!");
     if(localStorage.getItem("Murder on the Orient ExpressR")){
-        alert("usao5");
+        //alert("usao5");
         favorites+="<a href=\"orient_express.html\"> MURDER ON THE ORIENT EXPRESS </a>"+"<br>";
         favorites+=" <img src=\"img/filmovi_stranica/express/murder-on-orient-express-.jpg\" class=\"img-fluid\">";
         favorites+="<br><br><hr>";
